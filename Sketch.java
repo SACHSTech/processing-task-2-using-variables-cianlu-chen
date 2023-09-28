@@ -11,8 +11,7 @@ public class Sketch extends PApplet {
   public void setup() {
     background(179, 230, 255);
   }
-
-  
+ 
   public void draw() {
     // Body of house
     stroke(224, 202, 158);
@@ -59,7 +58,6 @@ public class Sketch extends PApplet {
     ellipse((float) (width / (7.0  / 5.0)), (float) (height / (140.0 / 19.0)), (float) (width / (35.0 / 6.0)), (float) (height / (28.0 / 3.0)));
     ellipse((float) (width / (70.0 / 53.0)), (float) (height / (28.0 / 3.0)), (float) (width / (140.0 / 27.0)), (float) (height / (70.0 / 9.0)));
     ellipse((float) (width / (70.0 / 47.0)), (float) (height / (140.0 / 13.0)), (float) (width / (35.0 / 6.0)), (float) (height / 7.0));
-    
 
     // Moley
     stroke(0, 0, 0);
