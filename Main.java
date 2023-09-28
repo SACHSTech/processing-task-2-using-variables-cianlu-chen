@@ -1,8 +1,8 @@
 import processing.core.PApplet;
 
 /**
- * Main class to execute sketch
- * @author 
+ * A program Sketch.java that draws a house that changes with the canvas size
+ * @author: L. Chen 
  *
  */
 class Main {
