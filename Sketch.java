@@ -4,7 +4,7 @@ public class Sketch extends PApplet {
 	
   // Window size
   public void settings() {
-    size(900, 900);
+    size(200, 200);
   }
 
   // Background colour
@@ -43,11 +43,11 @@ public class Sketch extends PApplet {
     ellipse(width, 0, (float) (width / 2.0), (float) (height / 2.0));
 
     line((float) (width / (7.0 / 5.0)), (float) (height / (35.0)), (float) (width / (7.0 / 4.0)), (float) (height / 14.0));
-    line(530, 80, 450, 120);
-    line(570, 90, 500, 170);
-    line(610, 95, 550, 220);
-    line(650, 140, 630, 235);
-    line(690, 170, 680, 250);
+    line((float) (width / (70.0 / 53.0)), (float) (height / (35.0 / 4.0)), (float) (width / (14.0 / 9.0)), (float) (height / (35.0 / 6.0)));
+    line((float) (width / (70.0 / 57.0)), (float) (height / (70.0 / 9.0)), (float) (width / (7.0 / 5.0)), (float) (height / (70.0 / 17.0)));
+    line((float) (width / (70.0 / 61.0)), (float) (height / (140.0 / 19.0)), (float) (width / (14.0 / 11.0)), (float) (height / (35.0 / 11.0)));
+    line((float) (width / (14.0 / 13.0)), (float) (height / 5.0), (float) (width / (10.0 / 9.0)), (float) (height / (140.0 / 47.0)));
+    line((float) (width / (70.0 / 69.0)), (float) (height / (70.0 / 17.0)), (float) (width / (35.0 / 34.0)), (float) (height / (14.0 / 5.0)));
 
     // Clouds
     stroke(255, 255, 255);
