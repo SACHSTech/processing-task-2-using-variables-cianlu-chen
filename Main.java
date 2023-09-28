@@ -2,7 +2,7 @@ import processing.core.PApplet;
 
 /**
  * A program Sketch.java that draws a house that changes with the canvas size
- * @author 
+ * @author: L. Chen 
  *
  */
 class Main {
